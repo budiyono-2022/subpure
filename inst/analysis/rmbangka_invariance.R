@@ -1,0 +1,10 @@
+suppressMessages(library(subpure)); data(rmbangka)
+items <- names(rmbangka)[7:42]
+facets <- split(items, substr(items,1,1)); names(facets) <- c("NC","TOL","AV","ALC")
+method <- c('A2','A3','A6','A7','A10','B12','B14','B16','B19','C21','C22','C25','C26','C29','C30','D32','D34','D36')
+rmbangka$faith <- factor(ifelse(rmbangka$religion=="Islam","Muslim","Non-Muslim"))
+t0 <- Sys.time()
+i1 <- pure_invariance(rmbangka, facets, method, group = "faith"); print(i1)
+i2 <- pure_invariance(rmbangka, facets, method, group = "school_type"); print(i2)
+print(Sys.time()-t0)
+saveRDS(list(faith = i1$table, school = i2$table), "inv_results.rds")

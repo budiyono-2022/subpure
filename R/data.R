@@ -1,0 +1,24 @@
+#' Religious moderation attitudes of secondary school students (Bangka Belitung)
+#'
+#' Responses of 4,197 secondary school students in the Bangka Belitung Islands
+#' Province, Indonesia, to a 36-item religious moderation scale built on the four
+#' dimensions of the Indonesian Ministry of Religious Affairs: national
+#' commitment (A1--A10), tolerance (B11--B20), anti-violence (C21--C30) and
+#' accommodation of local culture (D31--D36). Items use a five-point agreement
+#' format. The 18 unfavourable items (A2, A3, A6, A7, A10, B12, B14, B16, B19,
+#' C21, C22, C25, C26, C29, C30, D32, D34, D36) are already reverse-scored in the
+#' released data, so higher values always indicate a more moderate attitude.
+#'
+#' @format A data frame with 4,197 rows and 42 columns: \code{gender},
+#'   \code{religion}, \code{parent_work}, \code{school_type} (general, Islamic,
+#'   vocational), \code{school_status}, \code{district}, and the 36 items.
+#' @source Pratama, D., Pratama, I. A., Janawi, J., Pranajaya, S. A., Sumar, S.,
+#'   Syarifah, S., & Purnomo, F. S. (2026). Religious moderation dataset of
+#'   senior high school students in Indonesia. \emph{Journal of Open Psychology
+#'   Data, 14}, 5. \doi{10.5334/jopd.163}. Data released under CC BY 4.0
+#'   (\doi{10.17632/w8xypwdf95.1}); redistributed here unchanged except for
+#'   variable labels.
+"rmbangka"
+
+#' @keywords internal
+"_PACKAGE"

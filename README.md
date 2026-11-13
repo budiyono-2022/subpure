@@ -14,7 +14,7 @@ values for comparison.
 
 ```r
 # install.packages("remotes")
-remotes::install_github("trizahra10019-spec/subpure")
+remotes::install_github("budiyono-2022/subpure")
 library(subpure)
 data(rmbangka)
 items  <- names(rmbangka)[7:42]

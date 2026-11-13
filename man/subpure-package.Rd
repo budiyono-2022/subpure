@@ -11,8 +11,8 @@ Evaluates whether theoretically defined facets ("subscales") of a questionnaire 
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://github.com/trizahra10019-spec/subpure}
-  \item Report bugs at \url{https://github.com/trizahra10019-spec/subpure/issues}
+  \item \url{https://github.com/budiyono-2022/subpure}
+  \item Report bugs at \url{https://github.com/budiyono-2022/subpure/issues}
 }
 
 }
@@ -21,11 +21,11 @@ Useful links:
 
 Authors:
 \itemize{
-  \item Budiyono Budiyono
-  \item Anik Ghufron
+  \item Budiyono Budiyono (\href{https://orcid.org/0000-0003-2940-1185}{ORCID})
+  \item Anik Ghufron (\href{https://orcid.org/0000-0001-6711-3606}{ORCID})
   \item Arif Rohman
-  \item Sumin Sumin
-  \item Rachmad Agung Prayogi
+  \item Sumin Sumin (\href{https://orcid.org/0000-0001-5410-7522}{ORCID})
+  \item Rachmad Agung Prayogi (\href{https://orcid.org/0009-0001-7358-5527}{ORCID})
   \item Abdul Aziz
 }
 
